@@ -5,7 +5,7 @@ export default function Document() {
     title: 'Michael Tedla',
     description: 'Software dev, writer.',
     image:
-      'https://mickykebe-nextra.vercel.app/_next/image?url=%2Fimages%2Fmoi.jpg'
+      'https://github.com/mickykebe/mickykebe-nextra/blob/main/public/images/moi.jpg?raw=true'
   }
 
   return (
