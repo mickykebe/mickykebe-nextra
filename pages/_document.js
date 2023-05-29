@@ -4,7 +4,8 @@ export default function Document() {
   const meta = {
     title: 'Michael Tedla',
     description: 'Software dev, writer.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image:
+      'https://mickykebe-nextra.vercel.app/_next/image?url=%2Fimages%2Fmoi.jpg'
   }
 
   return (
@@ -17,7 +18,7 @@ export default function Document() {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourname" />
+        <meta name="twitter:site" content="@mickykebe" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
