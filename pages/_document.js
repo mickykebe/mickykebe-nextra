@@ -4,8 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Michael Tedla',
     description: 'Software dev, writer.',
-    image:
-      'https://github.com/mickykebe/mickykebe-nextra/blob/main/public/images/moi.jpg?raw=true'
+    image: 'https://avatars.githubusercontent.com/u/3784089?v=4'
   }
 
   return (
