@@ -1,0 +1,35 @@
+---
+title: Addis Ababa’s dangerous march toward rent control
+date: 2023/06/24
+description: View examples of all possible Markdown options.
+tag: Rent control, Addis Ababa
+author: Michael Tedla
+---
+
+# Addis Ababa’s dangerous march toward rent control
+
+Yesterday Addis Ababa city administration came out with an announcement urging tenants to [inform against](https://t.me/tikvahethiopia/79254) landlords who have increased rents. While expensive housing in Addis Ababa is [nothing new](https://addismaleda.com/archives/427), the city announcement comes in response to surging rental prices in the aftermath of increased property taxes on residential and commercial property owners. Many frustrated city tenants have [joined the call](https://telegra.ph/Tikvah-Ethiopia-06-23) for increased government regulation of the rental market. Yet despite the increasing favorability of rent control laws, further moves in that direction should be resisted because rent control laws not only fail to control rents, but exacerbate the very problem they’re supposedly meant to solve.
+
+There are many reasons for escalating prices in Addis Ababa all of which have led to reducing the city’s supply of rental housing and increasing the demand. Some among them include:
+
+- A rise in monetary inflation, which has devalued the birr and caused an increased baseline of prices not just in housing but on all goods.
+- Demolition of illegal housing units as part of the government’s supposed crack-down on “land grabs” which has increased the demand on city’s housing and creates pressure on the existing supply of housing units.
+- Politically driven artificial restrictions on land use causing an astronomical rise in the price of land which in turn works as a chokehold on the supply of affordable city housing.
+
+Yet in addition, the city’s misguided rent control policies themselves, now in effect since June of 2021, is another factor driving down the supply of available rental housing and increasing prices.
+
+The impact of rent control laws is the same around the world. Whether it’s in major metropolitan cities like New York and San Francisco or in countries as diverse as Egypt and Sweden, Rent control has meant a reduced supply in affordable housing units and longer waiting times for tenants looking to acquire rental housing.
+
+Rent control laws, despite their name, do not control rents. Rent control, just as any form of price control merely suppresses information on supply and demand of housing. Rising prices act as a signal that more housing supply is needed which is the ultimate cure for the housing problem. Rising prices incentivise homeowners to make their extra space available as rental units. By suppressing prices, rent control laws ensure that the rental housing supply is artificially kept low. Home owners who would otherwise be enticed by rising prices to get into the rental market have less of an incentive to do so under a price control regime.
+
+Furthermore the current price control and eviction moratorium laws, by limiting the contractual options of current and would-be landlords, has the effect of reducing the number of landlords in the system. Homeowners who would be enticed to rent out service rooms to tenants as a supplementary income will hesitate to do so given the increasing controls on the ways in which they can make deals with their tenants.
+
+Yet if all this wasn’t enough, the city administration recently came out with new property taxes, and a so-called “wall and roofing” tax(laughable if it wasn’t so totalitarian). Even though a lot worse can be said about such a law(especially the fact that it’s taxation on property and not income which puts property owners with limited income at risk of losing their property), let’s limit the discussion to its implications on the rental market which are just as dire. A rise in the baseline cost on property ownership and maintenance guarantees a corresponding price increase on rental prices.
+
+The idea perpetuated by city officials that they can target home owners without impacting tenants is foolish at best. But more likely it is a cynical ploy to place the blame of increasing rental prices on landlords while government actors(the real culprits behind permanent price hikes), can play the role of saviors. No matter the concerted attempts by government officials to paint themselves in this light(I.e. Protectors of tenants against greedy landlords), we should not be confused about where the blame lies.
+
+The Ethiopian government is responsible for the monetary inflation that has reduced the spending power of ordinary Ethiopians. The government is responsible for the chokehold on land supply making Ethiopia one of the most expensive cities to acquire housing. The A.A city administration is responsible for housing demolitions that has fueled unprecedented demand in rental housing units. The A.A city administration is responsible for the reducing supply of rental units through the imposing rent control restrictions and eviction moratoriums. The A.A city administration is responsible for introducing a whole suite of new property taxes in spite of rental prices soaring to new heights.
+
+The best policy for both housing tenants and landlords is one where there’s maximum flexibility for both tenants and landlords to strike mutually agreeable deals. Rent control laws and eviction moratoriums, which purport to benefit tenants against the malign interest of landlords, not only fail at that goal, but worsen the condition of tenants by reducing the quantity of available housing, and increasing waiting times for renters in search of rental units.
+
+The government should rollback rental pricing controls and eviction restrictions so that more housing units are made available from existing homeowners. More broadly the government should remove artificial restrictions on land use to free up more land and make building new homes cheaper. Continuing on the current policy path of price control will prove ruinous for both tenants and landlords.
