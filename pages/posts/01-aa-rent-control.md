@@ -1,7 +1,6 @@
 ---
 title: Addis Ababa’s dangerous march toward rent control
 date: 2023/06/24
-description: View examples of all possible Markdown options.
 tag: Rent control, Addis Ababa
 author: Michael Tedla
 ---
