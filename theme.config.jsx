@@ -40,6 +40,6 @@ export default {
   ),
   readMore: "Read More →",
   postFooter: null,
-  darkMode: false,
+  darkMode: true,
   navs: [],
 };
