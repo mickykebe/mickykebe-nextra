@@ -1,0 +1,30 @@
+---
+type: page
+title: Portfolio
+date: 2023/08/27
+author: Michael Tedla
+---
+
+import PortfolioItem from "../components/PortfolioItem";
+
+<PortfolioItem
+  title="Levitate.ai"
+  screenshotCaption="App features where I lead development"
+  screenshotImageSrcList={[]}
+  description=""
+  href="/portfolio/okcollect"
+/>
+
+<PortfolioItem
+  title="OkCollect"
+  screenshotCaption="Visual guide of a typical address capture flow in OkCollect"
+  screenshotImageSrcList={[
+    "/images/portfolio-demos/okcollect/okcollect1.png",
+    "/images/portfolio-demos/okcollect/okcollect2.png",
+    "/images/portfolio-demos/okcollect/okcollect3.png",
+    "/images/portfolio-demos/okcollect/okcollect4.png",
+    "/images/portfolio-demos/okcollect/okcollect5.png",
+  ]}
+  description="OkCollect is an embeddable address collection library I built that came with some unique challenges. 1. The library needed to be embeddable on any website and on the main native app so it needed to run as vanilla JS. No external dependencies. 2. Part of the address capture flow involved highly interactive maps and forms that had to be launched in a modal that took up larger screen real estate compared to the embedded portion. 3. Short time to market. I built the library as two separate units that worked together as one."
+  href="/portfolio/okcollect"
+/>

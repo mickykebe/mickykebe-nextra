@@ -1,0 +1,32 @@
+---
+title: OkCollect
+date: 2023/08/27
+author: Michael Tedla
+---
+
+import PortfolioVisual from "../../components/PortfolioVisual";
+
+<PortfolioVisual
+  caption="Visual guide of a typical address capture flow in OkCollect"
+  imageSrcList={[
+    "/images/portfolio-demos/okcollect/okcollect1.png",
+    "/images/portfolio-demos/okcollect/okcollect2.png",
+    "/images/portfolio-demos/okcollect/okcollect3.png",
+    "/images/portfolio-demos/okcollect/okcollect4.png",
+    "/images/portfolio-demos/okcollect/okcollect5.png",
+  ]}
+/>
+
+OkCollect is an embeddable address collection library I built that came with some unique challenges.
+
+1. The library needed to be embeddable on any website and on the main native app so it needed to run as vanilla JS. No external dependencies.
+2. Part of the address capture flow involved highly interactive maps and forms that had to be launched in a modal that took up larger screen real estate compared to the embedded portion.
+3. Short time to market.
+
+I built the library as two separate units that worked together as one. The first part is the embedded portion which is mainly composed of initial states of the address capture flow or a dropdown for existing addresses. I built this app with svelte which is a disappearing framework. I was able to move fast, building components in a reactive framework, free from the dilemma of how to integrate a runtime framework in a parent app outside my control.
+
+One downside of this compared to a pure-vanilla approach, is the bloat of svelte's runtime which would be built into the app. This is something we could live with as we were optimizing for time-to-market.
+
+The second part of the library is everything in the modal. This part of the app could be lazy-loaded and since it's launched much later in the address capture flow it meant that there were fewer limits with respect to dependencies and bundle size on this part of the library. So I was able to use React and other map-specific dependencies to build a highly interactive address capture flow.
+
+Last but not least is the messaging system with which the two apps communicated. Although initially the messaging was limited to controlling the opening and closing of the modal as well as the initial page, eventually growing complexity in the address capture flow meant that the two apps had to continously sync on address data. This was done using a custom event system that was built into the library.
