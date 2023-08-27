@@ -1,0 +1,74 @@
+---
+title: Levitate.ai
+date: 2023/08/27
+author: Michael Tedla
+---
+
+import PortfolioVisual from "../../components/PortfolioVisual";
+import Image from "next/image";
+
+<PortfolioVisual
+  caption="App features where I lead development at Levitate"
+  imageSrcList={[
+    "/images/portfolio-demos/levitate/happiness-dash.png",
+    "/images/portfolio-demos/levitate/hwc.png",
+    "/images/portfolio-demos/levitate/single-send.png",
+  ]}
+  width={1024}
+  height={493}
+/>
+
+During my time at levitate I lead the developement of many new app features and revamped many existing features by cleaning up technical debt and rebuilding them on solid foundations.
+
+One of my notable accomplishments was building the handwritten card feature set where customers were able to compose and schedule orders of handwritten cards to their clients. This meant building a sytem where
+
+- Admins could create and build custom handwritten card templates
+- Clients could browse the handwritten card available to them
+- Clients could initiate card order flows where they could customize the card message to the client
+- Bulk handwritten card flows could be initiated where clients could schedule bulk handwritten card flows to multiple clients(based on filter criterias etc.)
+- Orders could be approved/denied based on client balance according to a payment and credit system that was built
+- Clients could manage their handwritten card defaults in their settings(signature, address etc.)
+
+Other accomplishments include upgrading email creation flows.
+Before:
+
+Another accomplishment was upgrading the email creation flows.
+
+Before:
+
+<Image
+  src="/images/portfolio-demos/levitate/single-send-old.png"
+  width={1536}
+  height={740}
+/>
+
+After:
+
+<Image
+  src="/images/portfolio-demos/levitate/single-send.png"
+  width={1536}
+  height={740}
+/>
+
+I was also largely responsible for overhauling the app's layout system and dashboard design.
+
+Before:
+
+<Image
+  src="/images/portfolio-demos/levitate/old-dash.png"
+  width={1536}
+  height={740}
+/>
+
+After:
+
+<Image
+  src="/images/portfolio-demos/levitate/new-dash.png"
+  width={1536}
+  height={740}
+/>
+
+Other major changes I led include
+
+- Migrating the app's server data management approach from a viewmodel system to one based on tanstack-query. Refactored many existing feature sets accordingly, making the codebase more maintainable and amenable to feature upgrades.
+- Completed a full overhaul of the build and lint tooling, migrating from tslint to eslint/prettier and placing the project on a gradual path of lint adherence and improved code standards. Improved developer experience. Boosted build perf. by 55%.
