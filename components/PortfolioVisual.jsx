@@ -8,20 +8,22 @@ export default function PortfolioVisual({
   height,
 }) {
   return (
-    <div className="flex flex-col space-y-3 bg-zinc-200 p-3 rounded-md">
-      <div className="flex space-x-4 rounded-sm overflow-x-scroll p-4 bg-zinc-500/50">
+    <div className="flex flex-col space-y-1 rounded-md bg-zinc-200 p-3 dark:bg-slate-800">
+      <div className="flex space-x-4 overflow-x-scroll rounded-sm bg-zinc-300 p-4 dark:bg-slate-700">
         {imageSrcList.map((imageSrc, index) => (
           <Image
             key={index}
             src={imageSrc}
-            className="rounded-sm shadow-md"
+            className="m-0 rounded-sm shadow-md"
             width={width}
             height={height}
           />
         ))}
       </div>
       <div className="flex items-center">
-        <figcaption className="text-sm font-medium">{caption}</figcaption>
+        <figcaption className="text-sm font-medium dark:text-gray-300">
+          {caption}
+        </figcaption>
       </div>
     </div>
   );

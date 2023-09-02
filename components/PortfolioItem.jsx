@@ -13,8 +13,8 @@ export default function PortfolioItem({
   height,
 }) {
   return (
-    <div className="grid gap-x-6 gap-y-4 mb-6">
-      <Link href={href} className="font-bold text-xl no-underline">
+    <div className="mb-6 grid gap-x-6 gap-y-4">
+      <Link href={href} className="text-xl font-bold no-underline">
         {title}
       </Link>
       <PortfolioVisual
@@ -24,7 +24,7 @@ export default function PortfolioItem({
         height={height}
       />
       <p
-        className={`text-sm leading-relaxed relative h-32 overflow-hidden after:block after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0 after:content-[''] after:bg-gradient-to-b after:from-transparent after:to-white mb-1`}>
+        className={`relative mb-1 h-32 overflow-hidden text-sm leading-relaxed after:absolute after:bottom-0 after:left-0 after:right-0 after:top-0 after:block after:bg-gradient-to-b after:from-transparent after:to-white after:content-[''] dark:after:to-slate-900`}>
         {description}
       </p>
       <Link href={href} className="post-item-more text-sm">
