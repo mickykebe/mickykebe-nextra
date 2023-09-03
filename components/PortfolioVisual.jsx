@@ -8,8 +8,8 @@ export default function PortfolioVisual({
   height,
 }) {
   return (
-    <div className="flex flex-col space-y-1 rounded-md bg-zinc-200 p-3 dark:bg-slate-800">
-      <div className="flex space-x-4 overflow-x-scroll rounded-sm bg-zinc-300 p-4 dark:bg-slate-700">
+    <div className="flex flex-col space-y-1 rounded-md bg-zinc-300 p-3 dark:bg-slate-800">
+      <div className="flex space-x-4 overflow-x-scroll rounded-sm bg-zinc-200 p-4 dark:bg-slate-700">
         {imageSrcList.map((imageSrc, index) => (
           <Image
             key={index}
@@ -21,7 +21,7 @@ export default function PortfolioVisual({
         ))}
       </div>
       <div className="flex items-center">
-        <figcaption className="text-sm font-medium dark:text-gray-300">
+        <figcaption className="text-sm font-medium text-gray-700 dark:text-gray-300">
           {caption}
         </figcaption>
       </div>

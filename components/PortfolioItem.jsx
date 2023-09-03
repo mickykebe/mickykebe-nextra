@@ -14,7 +14,7 @@ export default function PortfolioItem({
 }) {
   return (
     <div className="mb-6 grid gap-x-6 gap-y-4">
-      <Link href={href} className="text-xl font-bold no-underline">
+      <Link href={href} className="text-2xl font-bold no-underline">
         {title}
       </Link>
       <PortfolioVisual
