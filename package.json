@@ -13,13 +13,15 @@
   "license": "ISC",
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
+    "clsx": "^2.0.0",
     "gray-matter": "^4.0.3",
     "next": "^13.4.7",
     "nextra": "^2.10.0",
     "nextra-theme-blog": "^2.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "tailwind-merge": "^1.14.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
